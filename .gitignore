@@ -1,0 +1,18 @@
+# CUDA 编译产物
+cuda/01-hello/hello
+cuda/02-threads/threads
+cuda/03-vector-add/vector_add
+*.o
+*.cubin
+*.bak
+build/
+
+# Python 环境
+__pycache__/
+.venv/
+
+# 本地环境信息
+env_inventory.md
+
+# 日志
+*.log
